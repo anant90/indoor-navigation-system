@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>User Guide</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+
+
+<style type="text/css">
+<!--
+.style1 {font-family: "Courier New", Courier, mono}
+.style2 {font-family: Georgia, "Times New Roman", Times, serif}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100"><p>&nbsp;</p>
+      <table border="0" cellpadding="0" cellspacing="1" bgcolor="#000000">
+      <tr>
+        <td><table border="0" cellpadding="1" cellspacing="2" bgcolor="#FFFFFF">
+            <tr>
+              <td><a href="index.html">Overview</a></td>
+            </tr>
+            <tr>
+              <td><a href="userguide.html">User Guide</a> </td>
+            </tr>
+            <tr>
+              <td><a href="codesamples.html">Code Samples</a> </td>
+            </tr>
+            <tr>
+              <td><a href="developers.html">Developers</a></td>
+            </tr>
+            <tr>
+              <td><a href="requirements.html">Requirements</a></td>
+            </tr>
+            <tr>
+              <td><a href="limitations.html">Limitations</a> </td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="75">&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="main" -->
+      <h1>User Guide</h1>
+      <p>Using gekmllib is, hopefully, straightfoward. </p>
+      <p><strong>Requirements.</strong><br />
+      gekmllib requires certain jars to be on the classpath to operate correctly. These jars are packaged in the dependencies ZIP file on the website.</p>
+      <p><strong>Usage</strong><br />
+        To load a KML document, you simply import <span class="style1">com.keithpower.gekmllib.Kml</span> and <span class="style2">KMLParser</span>, and then parse the document like so: </p>
+      <pre>Kml doc = new KMLParser().parse(new File(&quot;yourKMLfile.kml&quot;));</pre>
+	  
+      <p>You can access the root folder by calling <span class="style1">doc.getFolder()</span>. You can access the array of its folders with <span class="style1">doc.getFolder().getFolders(). </span>You can access a folders Placemarks, GroundOverlays etc with <span class="style1">folder.getPlacemarks(), folder.getGroundOverlays()</span> etc. </p>
+      <p>You can retrieve the KML corresponding to your document by calling: <span class="style1">doc.toKML()</span>. </p>
+      <p>If you wish to produce KML Updates, for use over a NetworkLink, then calling <span class="style1">doc.toUpdateKML()</span> will return the KML Update which represents the changes that have happened to the document since <span class="style1">toUpdateKML()</span> was last called. Note: after loading a document, or first using it's KML, you will typically want to call <span class="style1">toUpdateKML()</span>, ignoring its output so that the nodes created by loading the document are not incorporated into the KML Update.</p>
+      <p><strong>Parsing KML Fragments</strong><br />
+      It is possible to parse a fragment of a KML document. To do this you must initialise a KMLParser object with the name of the enclosing tag in your fragment, and the name of the class which represents this tag. For instance, to parse a GroundOverlay fragment you would do this:</p>
+      <pre>KMLParser parser = new KMLParser(&quot;GroundOverlay&quot;, GroundOverlay.class);
+GroundOverlay ge = (GroundOverlay)parser.parseFragment(
+                                new File(&quot;groundoverlayfragment.kml&quot;));
+</pre>
+      <p><strong>Examples</strong><br />
+        There are several examples in the <span class="style2">pip</span> folder, which show you how to load, create and modify KML documents and fragments. </p>
+    <!-- InstanceEndEditable --></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

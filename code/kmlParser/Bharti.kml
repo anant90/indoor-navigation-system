@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Bharti.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_blue-dot">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_blue-dot0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Bharti</name>
+		<open>1</open>
+		<Placemark>
+			<name>Path1</name>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					77.1901617611541,28.54498928375409,0 77.19014138405946,28.54504345772234,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path</name>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					77.1901601963848,28.54498928357289,0 77.190033,28.54495,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Lifts</name>
+			<styleUrl>#sn_blue-dot</styleUrl>
+			<Point>
+				<coordinates>77.1901413756859,28.54505646791778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reception</name>
+			<LookAt>
+				<gx:TimeStamp><when>1953-10</when>
+</gx:TimeStamp>
+				<longitude>77.19011795286929</longitude>
+				<latitude>28.54494426242887</latitude>
+				<altitude>0</altitude>
+				<heading>-0.006222530893576428</heading>
+				<tilt>0</tilt>
+				<range>35.10027109258487</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#sn_blue-dot0</styleUrl>
+			<Point>
+				<coordinates>77.1900329113361,28.54495547811721,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

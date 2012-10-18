@@ -1,0 +1,16 @@
+CHANGELOG
+
+Version 0.04
+Added first version of documentation (docs folder)
+Added Ant build task build.xml
+Supports parsing KML fragments (KMLParser and Node modified)
+Added ParseFragmentExample.java
+Fixed Issue #10 Missing / in closing tag of Create->Folder
+
+Version 0.03
+Made Java 1.4 compliant (this changed API)
+Removed all StringBuilder refs (Java compiler converts String append to these anyway)
+Added ability to turn off autogeneration of IDs in KML Objects (Configuration class)
+Added basic functionality to LongDate, now supports years as BigIntegers
+Fixed error outputting coordinates (commas and spaces mixed up)
+Added 4 separate examples

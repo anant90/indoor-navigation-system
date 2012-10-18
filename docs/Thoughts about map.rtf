@@ -1,0 +1,125 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fnil\fcharset0 AmericanTypewriter;\f1\fnil\fcharset0 LucidaGrande;\f2\fswiss\fcharset0 ArialMT;
+}
+{\colortbl;\red255\green255\blue255;\red248\green247\blue245;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid2\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid101\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid102\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid103\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid104\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2880\lin2880 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid202\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid301\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15700\viewh13900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\b\fs32 \cf0 Maps
+\b0 :\
+\
+1. The data structure:\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\ql\qnatural
+\ls1\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}The maps need to recognize/identify:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl400\ql\qnatural
+\ls1\ilvl1\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}public movement places/utilities\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}orientation support\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}localization support - have a coordinate system\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}unique IDs for the nodes\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}option for navigating to another door of the same room\
+\pard\tx560\tx1120\pardeftab720\sl400\ql\qnatural
+\cf0 \
+\pard\tx220\tx720\tx1120\pardeftab720\li720\fi-720\sl400\ql\qnatural
+\ls2\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}Graph, consisting of nodes, which have the following data attributes:\
+\pard\tx940\tx1440\tx1680\pardeftab720\li1440\fi-1440\sl400\ql\qnatural
+\ls2\ilvl1\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}The eight pointers to the eight directions, which could be:\
+\pard\tx1660\tx2160\tx2240\tx2800\pardeftab720\li2160\fi-2160\sl400\ql\qnatural
+\ls2\ilvl2\cf0 {\listtext	
+\f1 \uc0\u8259 
+\f0 	}a node: \
+\pard\tx2380\tx2880\pardeftab720\li2880\fi-2880\sl400\ql\qnatural
+\ls2\ilvl3\cf0 {\listtext	
+\f1 \uc0\u8259 
+\f0 	}a label-type: of a room/ door to a room (doors to the same room have a priority no.)\
+{\listtext	
+\f1 \uc0\u8259 
+\f0 	}or another path node\
+\pard\tx940\tx1440\tx1680\pardeftab720\li1440\fi-1440\sl400\ql\qnatural
+\ls2\ilvl1\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}The label of a node - path element/ room/ room door etc.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}The coordinate.\
+\pard\tx560\tx1120\tx1680\pardeftab720\sl400\ql\qnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 Also, we have separate lookup tables for the list of rooms/ all the public utilities\
+\
+2. Software for converting an image/ .dwg to our data structure:\
+.dwg format is closed.\
+Autodesk releases .DXF standard specifications.\
+
+\b GUI thru Qt/other options.
+\b0 \
+\
+3. The Navigation application on the mobile\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\ql\qnatural\pardirnatural
+\ls3\ilvl0\cf0 {\listtext	\'95	}Looking at 
+\b accessing SPP on bluetooth
+\b0  on Symbian (using AT commands)\
+{\listtext	\'95	}Looking at 
+\b voice output
+\b0  (using AT commands ?)\
+\pard\tx220\tx720\tx1120\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\ql\qnatural\pardirnatural
+\ls3\ilvl0\cf0 {\listtext	\'95	}Using the map:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\ql\qnatural\pardirnatural
+\ls3\ilvl1\cf0 {\listtext	
+\f1 \uc0\u8259 
+\f0 	}Develop an interface on your DS\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+4. Thinking of division of processing power between the MCU and mobile - in an analytical manner. \
+\
+\
+\pard\pardeftab720\sl420\ql\qnatural
+\cf0 \cb2 Bluetooth Modem - BlueSMiRF RP-SMA\
+http://www.sparkfun.com/commerce/product_info.php?products_id=158\
+\
+http://wiki.forum.nokia.com/index.php/\
+\
+How_to_send_descriptor_over_Bluetooth#Sending_data_over_BT_by_client_or_server\
+http://en.wikipedia.org/wiki/Bluetooth_stack#Symbian_OS\
+\cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+Micello's indoor mapping technology - Micello maps\
+\
+\pard\pardeftab720\sl360\sa260\ql\qnatural
+
+\f2\fs28 \cf0 For this sort of application, you would want some sort of database to represent map features and the connections between them, and would then need:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\ql\qnatural
+\ls4\ilvl0\cf0 {\listtext	1.	}spatial indexing of the map feature database, so that it can be efficiently queried by 2D coordinates; and\
+{\listtext	2.	}a good way to search the connections to find a least-cost route, for some measure of cost (e.g. distance).\
+\pard\pardeftab720\sl360\sa260\ql\qnatural
+\cf0 For 1, an example would be the {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/R-tree"}}{\fldrslt R-tree}} data structure.\
+For 2, you need a graph search algorithm, such as {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/A%2a_algorithm"}}{\fldrslt A*}}.\
+http://www.cs.utk.edu/~berry/deer/node18.html\
+http://www.gamedev.net/reference/programming/features/arttilebase/\
+http://mashable.com/2009/09/22/micello/\
+http://www.rhydolabz.com/index.php?main_page=product_info&cPath=120&products_id=479\
+http://www.rhydolabz.com/index.php?main_page=product_info&cPath=120&products_id=454s
+\f0\fs32 \
+}

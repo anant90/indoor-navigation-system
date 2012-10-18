@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.1"><Document>
+<Placemark>
+<name>SeminarRoom</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19014821926426,28.54492815056406,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19014821926426,28.54492815056406,0.0 77.19025945749688,28.54496459981439,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>DHD Lab</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19025945749688,28.54496459981439,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19025945749688,28.54496459981439,0.0 77.19028121425875,28.54497093823186,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>PathNode0</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19028121425875,28.54497093823186,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19028121425875,28.54497093823186,0.0 77.19027068629167,28.54499637423362,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19028121425875,28.54497093823186,0.0 77.19032332695862,28.54498515934826,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Lift0</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19027068629167,28.54499637423362,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19027068629167,28.54499637423362,0.0 77.19024759993795,28.54505011606412,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Toilet0</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19024759993795,28.54505011606412,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Stairs</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19032332695862,28.54498515934826,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19032332695862,28.54498515934826,0.0 77.19034682856388,28.54499367390863,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>FPGA Lab</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19034682856388,28.54499367390863,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19034682856388,28.54499367390863,0.0 77.19037094494148,28.54500207884988,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Prof Balakrishnan</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19037094494148,28.54500207884988,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19037094494148,28.54500207884988,0.0 77.19040571885814,28.54501332393493,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Prof Anshul Kumar</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19040571885814,28.54501332393493,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19040571885814,28.54501332393493,0.0 77.19044059441215,28.54502540421495,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Discussion Area</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19044059441215,28.54502540421495,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19044059441215,28.54502540421495,0.0 77.19048136388592,28.54503768868221,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Prof Ragesh Jaiwal</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19048136388592,28.54503768868221,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19048136388592,28.54503768868221,0.0 77.19051765605259,28.54504940393853,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Prof SN Maheshwari</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19051765605259,28.54504940393853,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19051765605259,28.54504940393853,0.0 77.19055836570675,28.54506431411116,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Philips VLSI Lab</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19055836570675,28.54506431411116,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19055836570675,28.54506431411116,0.0 77.19060920728944,28.5450821897095,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>GCL</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19060920728944,28.5450821897095,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19060920728944,28.5450821897095,0.0 77.19059134376384,28.54512145330926,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>PathNode1</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19059134376384,28.54512145330926,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19059134376384,28.54512145330926,0.0 77.19056166649858,28.54511190843219,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<LineString>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19059134376384,28.54512145330926,0.0 77.19058578896964,28.54513408553932,0.0</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Toliet1</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19056166649858,28.54511190843219,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Server Room</name>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>77.19058578896964,28.54513408553932,0.0</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

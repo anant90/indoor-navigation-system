@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GroundFloor</name>
+	<open>1</open>
+	<Style id="style1">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_blue-dot2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_blue-dot10">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_blue-dot1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_blue-dot00">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_blue-dot3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style6">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_blue-dot">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_blue-dot0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>73ff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_blue-dot4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Reception</name>
+		<styleUrl>#sn_blue-dot0</styleUrl>
+		<Point>
+			<coordinates>77.19008191534948,28.54490757292398,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lifts</name>
+		<styleUrl>#sn_blue-dot1</styleUrl>
+		<Point>
+			<coordinates>77.19015123972481,28.54501883763074,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Room</name>
+		<styleUrl>#sn_blue-dot4</styleUrl>
+		<Point>
+			<coordinates>77.19048674924458,28.54504895867551,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Node0</name>
+		<styleUrl>#sn_blue-dot</styleUrl>
+		<Point>
+			<coordinates>77.19018591024883,28.54494552794888,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Line0</name>
+		<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				77.19008252413587,28.54490963735048,0 77.19018684520618,28.5449468667779,0 77.19048783601427,28.54504974259647,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Line1</name>
+		<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				77.19015124689048,28.54502084717424,0 77.19018568309383,28.5449461297543,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Line 2</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				77.19018567591995,28.54494592349102,0 77.19021580736393,28.5448779665363,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+    <Placemark>
+		<name>Room 2</name>
+		<styleUrl>#sn_blue-dot</styleUrl>
+		<Point>
+			<coordinates>77.19020074165188,28.54491194501127,0</coordinates>
+		</Point>
+	</Placemark>
+    
+	
+</Document>
+</kml>

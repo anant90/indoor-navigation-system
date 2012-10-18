@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="gekmllib" default="gekmllib" basedir=".">
+
+	<path id="gekmllib.classpath">
+		<pathelement location="lib/commons-beanutils-bean-collections.jar"/>
+		<pathelement location="lib/commons-beanutils-core.jar"/>
+		<pathelement location="lib/commons-beanutils.jar"/>
+		<pathelement location="lib/commons-collections-3.1.jar"/>
+		<pathelement location="lib/commons-digester-1.8.jar"/>
+		<pathelement location="lib/commons-logging.jar"/>
+	</path>
+	<property name="classpath" refid="gekmllib.classpath"/>
+	
+	<property name="destdir" location="bin"/>
+	
+	<!-- Build library and examples -->
+	<target name="build_all" >
+		<javac srcdir="src" classpath="${classpath}" debug="true" source="1.4" destdir="${destdir}" deprecation="on"/>
+	</target>
+
+	<target name="gekmllib"  depends="build_all">
+		<jar destfile="gekmllib.jar" basedir="${destdir}"
+			includes="**"/>
+		</target>
+</project> 
